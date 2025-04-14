@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { ArrowUp, Instagram, Linkedin, Mail } from "lucide-react";
 
-import Nav from "@/components/ui/nav";
-import Footer from "@/components/footer";
+import Nav from "./components/ui/nav";
+import Footer from "./components/footer";
 import Router from "./components/ui/router";
 
 function App() {

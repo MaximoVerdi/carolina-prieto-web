@@ -4,8 +4,8 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Projects from "./Projects";
-import Companies from "@/components/ui/companies";
-import { Button } from "@/components/ui/button";
+import Companies from "../components/ui/companies";
+import { Button } from "../components/ui/button";
 import { Check, Send, Star } from "lucide-react";
 
 function Home() {

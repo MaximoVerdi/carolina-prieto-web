@@ -2,8 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Send } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useToast } from "@/components/ui/use-toast";
+import { Button } from "../components/ui/button";
+import { useToast } from "../components/ui/use-toast";
 
 function Contact() {
   const { toast } = useToast();
