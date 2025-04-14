@@ -7,7 +7,7 @@ import Projects from "../../pages/Projects";
 import ProjectDetail from "../../pages/ProjectDetail";
 import About from "../../pages/About";
 import Contact from "../../pages/Contact";
-import CompaniesPage from "../../pages/companiesPage";
+import CompaniesPage from "../../pages/CompaniesPage";
 
 const Router = () => {
   const location = useLocation();
