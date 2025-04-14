@@ -61,7 +61,7 @@ const Companies = () => {
 
         {/* Marquee */}
         <div className="relative w-full overflow-hidden">
-          <div className="flex gap-8 sm:gap-2 animate-marquee whitespace-nowrap">
+          <div className="flex gap-2 sm:gap-8 animate-marquee whitespace-nowrap">
             {duplicated.map((company, index) => (
               <div key={index} className="flex-shrink-0 p-4 flex items-center justify-center">
                 <img
