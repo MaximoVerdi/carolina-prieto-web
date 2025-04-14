@@ -88,16 +88,16 @@ const Companies = () => {
       <style>{`
         @keyframes marquee {
           0% { transform: translateX(0%); }
-          100% { transform: translateX(-50%); }
+          100% { transform: translateX(-100%); }
         }
 
         .animate-marquee {
-          animation: marquee 30s linear infinite;
+          animation: marquee 15s linear infinite;
         }
 
         @media (max-width: 768px) {
           .animate-marquee {
-            animation-duration: 20s;
+            animation-duration: infinite;
           }
         }
       `}</style>
